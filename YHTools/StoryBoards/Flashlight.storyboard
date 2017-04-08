@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wqe-Je-xNM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Flashlight View Controller-->
+        <scene sceneID="h2W-6E-heE">
+            <objects>
+                <viewController id="wqe-Je-xNM" customClass="FlashlightViewController" customModule="YHTools" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xqh-YM-ZYH"/>
+                        <viewControllerLayoutGuide type="bottom" id="KT1-Ss-hMt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VCo-r2-h9w">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="TjQ-rc-kIR">
+                                <rect key="frame" x="127.5" y="507" width="120" height="80"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wQN-mH-X7p">
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="30"/>
+                                        <state key="normal" title="启动"/>
+                                        <connections>
+                                            <action selector="start:" destination="wqe-Je-xNM" eventType="touchUpInside" id="b9W-ld-XbO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qw9-Tz-Yf5">
+                                        <rect key="frame" x="0.0" y="50" width="120" height="30"/>
+                                        <state key="normal" title="退出"/>
+                                        <connections>
+                                            <action selector="dismiss:" destination="wqe-Je-xNM" eventType="touchUpInside" id="VIh-oH-8TQ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="88f-Pa-vtG"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="KT1-Ss-hMt" firstAttribute="top" secondItem="TjQ-rc-kIR" secondAttribute="bottom" constant="80" id="6nb-ks-KFr"/>
+                            <constraint firstItem="TjQ-rc-kIR" firstAttribute="centerX" secondItem="VCo-r2-h9w" secondAttribute="centerX" id="IXq-bk-aPr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J9C-4K-R3T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1794" y="-108"/>
+        </scene>
+    </scenes>
+</document>

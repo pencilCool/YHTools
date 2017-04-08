@@ -10,4 +10,5 @@ import UIKit
 class MainViewCell: UICollectionViewCell
 {
     
+    @IBOutlet weak var toolFieldName: UILabel!
 }

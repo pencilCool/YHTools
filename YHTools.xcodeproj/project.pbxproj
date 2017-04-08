@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FF58DAB5C608AB3ECBD47BF /* Pods_YHTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A0A9EE0F8B2DC219DB54D5 /* Pods_YHTools.framework */; };
 		ECB022861E97A68A00786244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB022851E97A68A00786244 /* AppDelegate.swift */; };
 		ECB022881E97A68A00786244 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB022871E97A68A00786244 /* MainViewController.swift */; };
 		ECB0228B1E97A68A00786244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB022891E97A68A00786244 /* Main.storyboard */; };
@@ -15,6 +16,12 @@
 		ECB0229B1E97A68A00786244 /* YHToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB0229A1E97A68A00786244 /* YHToolsTests.swift */; };
 		ECB022A61E97A68A00786244 /* YHToolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB022A51E97A68A00786244 /* YHToolsUITests.swift */; };
 		ECB022B41E97A81D00786244 /* MainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB022B31E97A81D00786244 /* MainViewCell.swift */; };
+		ECB022B61E98641D00786244 /* UIColor+YHTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB022B51E98641D00786244 /* UIColor+YHTools.swift */; };
+		ECB022BC1E9866E000786244 /* FlashlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB022BB1E9866E000786244 /* FlashlightViewController.swift */; };
+		ECB022C11E986B8C00786244 /* Flashlight.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB022C01E986B8C00786244 /* Flashlight.storyboard */; };
+		ECB022C31E98911B00786244 /* YHConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB022C21E98911B00786244 /* YHConfig.swift */; };
+		ECB022C71E98934E00786244 /* Porn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB022C51E98934E00786244 /* Porn.storyboard */; };
+		ECB022C91E98936800786244 /* PornViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB022C81E98936800786244 /* PornViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39A0A9EE0F8B2DC219DB54D5 /* Pods_YHTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC87CD284F00FD6DFAF8ADA0 /* Pods-YHTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YHTools/Pods-YHTools.debug.xcconfig"; sourceTree = "<group>"; };
+		E6A9BA4C432EF45F51AAF15F /* Pods-YHTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-YHTools/Pods-YHTools.release.xcconfig"; sourceTree = "<group>"; };
 		ECB022821E97A68A00786244 /* YHTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB022851E97A68A00786244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECB022871E97A68A00786244 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +59,12 @@
 		ECB022A51E97A68A00786244 /* YHToolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YHToolsUITests.swift; sourceTree = "<group>"; };
 		ECB022A71E97A68A00786244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECB022B31E97A81D00786244 /* MainViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewCell.swift; sourceTree = "<group>"; };
+		ECB022B51E98641D00786244 /* UIColor+YHTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+YHTools.swift"; sourceTree = "<group>"; };
+		ECB022BB1E9866E000786244 /* FlashlightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashlightViewController.swift; sourceTree = "<group>"; };
+		ECB022C01E986B8C00786244 /* Flashlight.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Flashlight.storyboard; sourceTree = "<group>"; };
+		ECB022C21E98911B00786244 /* YHConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHConfig.swift; sourceTree = "<group>"; };
+		ECB022C61E98934E00786244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Porn.storyboard; sourceTree = "<group>"; };
+		ECB022C81E98936800786244 /* PornViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PornViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FF58DAB5C608AB3ECBD47BF /* Pods_YHTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B3AE52C5FF7EA31A5FCFE87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC87CD284F00FD6DFAF8ADA0 /* Pods-YHTools.debug.xcconfig */,
+				E6A9BA4C432EF45F51AAF15F /* Pods-YHTools.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ECB022791E97A68A00786244 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +109,8 @@
 				ECB022991E97A68A00786244 /* YHToolsTests */,
 				ECB022A41E97A68A00786244 /* YHToolsUITests */,
 				ECB022831E97A68A00786244 /* Products */,
+				6B3AE52C5FF7EA31A5FCFE87 /* Pods */,
+				F99AEC47EFCC326F0C1833DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +127,15 @@
 		ECB022841E97A68A00786244 /* YHTools */ = {
 			isa = PBXGroup;
 			children = (
+				ECB022C41E98912100786244 /* Helper */,
+				ECB022B81E9865D700786244 /* Controllers */,
+				ECB022B71E9865CB00786244 /* Extensions */,
+				ECB022BA1E9865F200786244 /* StoryBoards */,
+				ECB022B91E9865E600786244 /* View */,
 				ECB022851E97A68A00786244 /* AppDelegate.swift */,
-				ECB022B31E97A81D00786244 /* MainViewCell.swift */,
-				ECB022871E97A68A00786244 /* MainViewController.swift */,
-				ECB022891E97A68A00786244 /* Main.storyboard */,
 				ECB0228C1E97A68A00786244 /* Assets.xcassets */,
-				ECB0228E1E97A68A00786244 /* LaunchScreen.storyboard */,
 				ECB022911E97A68A00786244 /* Info.plist */,
+				ECB0228E1E97A68A00786244 /* LaunchScreen.storyboard */,
 			);
 			path = YHTools;
 			sourceTree = "<group>";
@@ -113,8 +143,8 @@
 		ECB022991E97A68A00786244 /* YHToolsTests */ = {
 			isa = PBXGroup;
 			children = (
-				ECB0229A1E97A68A00786244 /* YHToolsTests.swift */,
 				ECB0229C1E97A68A00786244 /* Info.plist */,
+				ECB0229A1E97A68A00786244 /* YHToolsTests.swift */,
 			);
 			path = YHToolsTests;
 			sourceTree = "<group>";
@@ -122,10 +152,62 @@
 		ECB022A41E97A68A00786244 /* YHToolsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				ECB022A51E97A68A00786244 /* YHToolsUITests.swift */,
 				ECB022A71E97A68A00786244 /* Info.plist */,
+				ECB022A51E97A68A00786244 /* YHToolsUITests.swift */,
 			);
 			path = YHToolsUITests;
+			sourceTree = "<group>";
+		};
+		ECB022B71E9865CB00786244 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ECB022B51E98641D00786244 /* UIColor+YHTools.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ECB022B81E9865D700786244 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECB022871E97A68A00786244 /* MainViewController.swift */,
+				ECB022BB1E9866E000786244 /* FlashlightViewController.swift */,
+				ECB022C81E98936800786244 /* PornViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ECB022B91E9865E600786244 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECB022B31E97A81D00786244 /* MainViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECB022BA1E9865F200786244 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				ECB022891E97A68A00786244 /* Main.storyboard */,
+				ECB022C51E98934E00786244 /* Porn.storyboard */,
+				ECB022C01E986B8C00786244 /* Flashlight.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		ECB022C41E98912100786244 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				ECB022C21E98911B00786244 /* YHConfig.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		F99AEC47EFCC326F0C1833DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39A0A9EE0F8B2DC219DB54D5 /* Pods_YHTools.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECB022AA1E97A68A00786244 /* Build configuration list for PBXNativeTarget "YHTools" */;
 			buildPhases = (
+				C2612F08C4CBE34E330031F4 /* [CP] Check Pods Manifest.lock */,
 				ECB0227E1E97A68A00786244 /* Sources */,
 				ECB0227F1E97A68A00786244 /* Frameworks */,
 				ECB022801E97A68A00786244 /* Resources */,
+				ABA27DD0F63BF6A34DA800A7 /* [CP] Embed Pods Frameworks */,
+				C28D67BEE39AC2E067E6A21A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,6 +325,8 @@
 			files = (
 				ECB022901E97A68A00786244 /* LaunchScreen.storyboard in Resources */,
 				ECB0228D1E97A68A00786244 /* Assets.xcassets in Resources */,
+				ECB022C71E98934E00786244 /* Porn.storyboard in Resources */,
+				ECB022C11E986B8C00786244 /* Flashlight.storyboard in Resources */,
 				ECB0228B1E97A68A00786244 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,14 +347,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ABA27DD0F63BF6A34DA800A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YHTools/Pods-YHTools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2612F08C4CBE34E330031F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C28D67BEE39AC2E067E6A21A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YHTools/Pods-YHTools-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ECB0227E1E97A68A00786244 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				ECB022B41E97A81D00786244 /* MainViewCell.swift in Sources */,
+				ECB022C91E98936800786244 /* PornViewController.swift in Sources */,
 				ECB022881E97A68A00786244 /* MainViewController.swift in Sources */,
+				ECB022C31E98911B00786244 /* YHConfig.swift in Sources */,
+				ECB022B61E98641D00786244 /* UIColor+YHTools.swift in Sources */,
 				ECB022861E97A68A00786244 /* AppDelegate.swift in Sources */,
+				ECB022BC1E9866E000786244 /* FlashlightViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +448,7 @@
 				ECB0228A1E97A68A00786244 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		ECB0228E1E97A68A00786244 /* LaunchScreen.storyboard */ = {
@@ -317,6 +457,15 @@
 				ECB0228F1E97A68A00786244 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		ECB022C51E98934E00786244 /* Porn.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB022C61E98934E00786244 /* Base */,
+			);
+			name = Porn.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -415,6 +564,7 @@
 		};
 		ECB022AB1E97A68A00786244 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC87CD284F00FD6DFAF8ADA0 /* Pods-YHTools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4BADWEEE97;
@@ -428,6 +578,7 @@
 		};
 		ECB022AC1E97A68A00786244 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6A9BA4C432EF45F51AAF15F /* Pods-YHTools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4BADWEEE97;
@@ -516,6 +667,7 @@
 				ECB022AC1E97A68A00786244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECB022AD1E97A68A00786244 /* Build configuration list for PBXNativeTarget "YHToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +676,7 @@
 				ECB022AF1E97A68A00786244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECB022B01E97A68A00786244 /* Build configuration list for PBXNativeTarget "YHToolsUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +685,7 @@
 				ECB022B21E97A68A00786244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
